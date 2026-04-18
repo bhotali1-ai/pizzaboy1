@@ -1,0 +1,29 @@
+# PizzaBoy.ai — Environment Variables
+# Copy this file to .env and fill in your values
+# Never commit .env to git!
+
+# ── Anthropic ──────────────────────────────────────────
+ANTHROPIC_API_KEY=sk-ant-your-key-here
+
+# ── Twilio ─────────────────────────────────────────────
+TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+TWILIO_AUTH_TOKEN=your_auth_token_here
+
+# ── Server ─────────────────────────────────────────────
+PORT=3000
+
+# Your public URL (Railway, Render, ngrok, etc.)
+# During dev: use ngrok → npx ngrok http 3000 → copy the https URL
+BASE_URL=https://your-app-url.railway.app
+
+# ── Fallback ───────────────────────────────────────────
+# If AI errors, calls forward here (your real phone number)
+FALLBACK_PHONE=+13055550001
+
+# ── Optional: POS Integration ──────────────────────────
+# TOAST_API_KEY=
+# SQUARE_ACCESS_TOKEN=
+# CLOVER_API_KEY=
+
+# ── Optional: SMS Confirmations ────────────────────────
+# TWILIO_PHONE_NUMBER=+1305xxxxxxx  (your Twilio number)
